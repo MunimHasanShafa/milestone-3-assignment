@@ -12,6 +12,7 @@ else{
     console.log("Length in mile:", feetToMile(lengthInFeet).toFixed(2), "Miles");
 }
 
+
 //wood calculator assignment
 
 function woodCalculator(chair, table, bed){
@@ -22,6 +23,7 @@ var numOfChair = 4;
 var numOfTable = 3;
 var numOfBed = 5;
 console.log("Wood Reqcuired:", woodCalculator(numOfChair, numOfTable, numOfBed), "cubic foot");
+
 
 //bricks calculator assignment
 
@@ -44,6 +46,7 @@ else{
     console.log("Number of bricks required:", brickCalculator(numOfFloor)*1000);
 }
 
+
 //tiny friend assignment
 
 function tinyFriend(friends){
@@ -58,5 +61,5 @@ function tinyFriend(friends){
 }
 
 var friendNames = ['Akash', 'Shafa', 'Koushik', 'Abir', 'Ani', 'Ovi'];
-console.log("Tiny friend name is", tinyFriend(friendNames));
+console.log("Tiny friend name is:", tinyFriend(friendNames));
 
